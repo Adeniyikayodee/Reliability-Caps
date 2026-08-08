@@ -60,9 +60,15 @@ python3 make_figures.py
 python3 make_figure1.py
 ```
 
-Results are written to `experiments/results/` as JSON, each alongside the
-configuration that produced it. Individual experiments run standalone, subject to the
-ordering noted in `run_all.py`.
+Results are written to `experiments/results/` as JSON, each alongside the configuration
+that produced it. The results of the runs behind this code are committed there already, so
+any number can be checked, and any figure redrawn, without repeating the computation.
+Rerunning overwrites them. Individual experiments run standalone, subject to the ordering
+noted in `run_all.py`.
+
+`exp12` and `exp13` are arithmetic on finished runs rather than fresh measurements: they
+read the results of `exp6` and `exp2` and reproduce byte for byte from the committed
+files.
 
 A full eight-settlement run caches roughly 1.3 GB of tiles and rasters under
 `experiments/`. All of it is gitignored and safe to delete; the scripts refetch.

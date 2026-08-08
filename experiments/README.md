@@ -1,7 +1,8 @@
 # Experiments
 
 Run from this directory. Each script writes its results to `results/` as JSON, alongside
-the configuration that produced them.
+the configuration that produced them. Those files are committed, so the results of the runs
+behind this code are present before anything is rerun.
 
 ```bash
 python3 run_all.py               # everything, in order, about an hour

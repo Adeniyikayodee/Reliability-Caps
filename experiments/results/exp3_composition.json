@@ -1,0 +1,410 @@
+{
+  "config": {
+    "k": 6,
+    "shares_surface": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "share_observed": 0.7,
+    "hazard_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "n_reports": 4000,
+    "report_noise": 0.2,
+    "tau_min": 30.0,
+    "shuffle_trials": 100
+  },
+  "sweep": [
+    {
+      "share_surface": 0.0,
+      "share_terrain": 0.7,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            1.2155,
+            0.22
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 8.836
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            1.186,
+            0.1127
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 8.324
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4174,
+            0.1275
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 41.907
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6311,
+            0.0788
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.642
+        }
+      }
+    },
+    {
+      "share_surface": 0.1,
+      "share_terrain": 0.6,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            1.0736,
+            0.2481
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 11.009
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            1.0255,
+            0.0921
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 10.118
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4175,
+            0.118
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 42.007
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6328,
+            0.0841
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.652
+        }
+      }
+    },
+    {
+      "share_surface": 0.2,
+      "share_terrain": 0.5,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            0.955,
+            0.3371
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 15.122
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            0.8973,
+            0.1435
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 12.536
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4367,
+            0.14
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 41.404
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6176,
+            0.0993
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.76
+        }
+      }
+    },
+    {
+      "share_surface": 0.3,
+      "share_terrain": 0.4,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            0.8657,
+            0.358
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 18.046
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            0.9145,
+            0.3138
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 13.865
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.3836,
+            0.2272
+          ],
+          "cleared_null": "8/10",
+          "city_reports_per_hour": 37.116
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6176,
+            0.0917
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.757
+        }
+      }
+    },
+    {
+      "share_surface": 0.4,
+      "share_terrain": 0.3,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            0.8638,
+            0.3719
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 18.898
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            0.7978,
+            0.353
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 17.897
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4196,
+            0.2727
+          ],
+          "cleared_null": "8/10",
+          "city_reports_per_hour": 36.008
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6172,
+            0.0986
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.786
+        }
+      }
+    },
+    {
+      "share_surface": 0.5,
+      "share_terrain": 0.2,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            0.882,
+            0.398
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 21.036
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            0.7788,
+            0.381
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 22.133
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4279,
+            0.312
+          ],
+          "cleared_null": "7/10",
+          "city_reports_per_hour": 27.405
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6226,
+            0.0935
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.737
+        }
+      }
+    },
+    {
+      "share_surface": 0.6,
+      "share_terrain": 0.1,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            0.8951,
+            0.4864
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 1054.771
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            0.6543,
+            0.429
+          ],
+          "cleared_null": "9/10",
+          "city_reports_per_hour": 26.821
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4385,
+            0.2764
+          ],
+          "cleared_null": "8/10",
+          "city_reports_per_hour": 31.934
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6217,
+            0.0886
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.739
+        }
+      }
+    },
+    {
+      "share_surface": 0.7,
+      "share_terrain": 0.0,
+      "share_unobserved": 0.3,
+      "priors": {
+        "TESSERA-128": {
+          "kappa_excess_nats": [
+            0.7148,
+            0.2968
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 23.924
+        },
+        "terrain": {
+          "kappa_excess_nats": [
+            0.3758,
+            0.2796
+          ],
+          "cleared_null": "8/10",
+          "city_reports_per_hour": 43.164
+        },
+        "tessellation": {
+          "kappa_excess_nats": [
+            0.4812,
+            0.2376
+          ],
+          "cleared_null": "9/10",
+          "city_reports_per_hour": 33.33
+        },
+        "random": {
+          "kappa_excess_nats": [
+            0.0,
+            0.0
+          ],
+          "cleared_null": "0/10",
+          "city_reports_per_hour": null
+        },
+        "driver-oracle": {
+          "kappa_excess_nats": [
+            1.6185,
+            0.0751
+          ],
+          "cleared_null": "10/10",
+          "city_reports_per_hour": 3.655
+        }
+      }
+    }
+  ]
+}

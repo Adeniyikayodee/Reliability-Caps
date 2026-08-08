@@ -1,0 +1,153 @@
+{
+ "method": "excess of falling over rising cells at 4 dB, against a null of dry scenes on the same relative orbit",
+ "detected_rule": "z > 2 against the dry-scene null",
+ "embedding_year_excluded": 2024,
+ "n_detected": 0,
+ "n_cities": 8,
+ "cities": [
+  {
+   "event_date": "2022-07-14",
+   "orbit": [
+    95,
+    "descending"
+   ],
+   "n_dry_scenes": 27,
+   "threshold_db": 4.0,
+   "excess_fall_pp": -1.24,
+   "null_mean_pp": -0.835,
+   "null_sd_pp": 0.977,
+   "null_max_pp": 0.015,
+   "z": -0.41,
+   "detected": false,
+   "city": "Lagos, Ajegunle",
+   "event": "July 2022 Lagos rainy-season flooding",
+   "lag_days": 4
+  },
+  {
+   "event_date": "2023-06-18",
+   "orbit": [
+    147,
+    "ascending"
+   ],
+   "n_dry_scenes": 27,
+   "threshold_db": 4.0,
+   "excess_fall_pp": -0.121,
+   "null_mean_pp": -0.46,
+   "null_sd_pp": 0.505,
+   "null_max_pp": 0.735,
+   "z": 0.67,
+   "detected": false,
+   "city": "Accra, Odaw",
+   "event": "June 2023 Odaw basin flooding",
+   "lag_days": 0
+  },
+  {
+   "event_date": "2020-04-28",
+   "orbit": [
+    57,
+    "ascending"
+   ],
+   "n_dry_scenes": 26,
+   "threshold_db": 4.0,
+   "excess_fall_pp": -0.067,
+   "null_mean_pp": 0.094,
+   "null_sd_pp": 0.144,
+   "null_max_pp": 0.341,
+   "z": -1.11,
+   "detected": false,
+   "city": "Nairobi, Mathare",
+   "event": "April to May 2020 Nairobi river flooding",
+   "lag_days": -1
+  },
+  {
+   "event_date": "2022-05-05",
+   "orbit": [
+    123,
+    "descending"
+   ],
+   "n_dry_scenes": 27,
+   "threshold_db": 4.0,
+   "excess_fall_pp": -0.091,
+   "null_mean_pp": -0.059,
+   "null_sd_pp": 0.346,
+   "null_max_pp": 0.427,
+   "z": -0.09,
+   "detected": false,
+   "city": "Kampala, Bwaise",
+   "event": "May 2022 Lubigi channel flooding",
+   "lag_days": 0
+  },
+  {
+   "event_date": "2020-07-19",
+   "orbit": [
+    114,
+    "ascending"
+   ],
+   "n_dry_scenes": 29,
+   "threshold_db": 4.0,
+   "excess_fall_pp": 2.717,
+   "null_mean_pp": 0.247,
+   "null_sd_pp": 3.002,
+   "null_max_pp": 5.474,
+   "z": 0.82,
+   "detected": false,
+   "city": "Dhaka, Korail",
+   "event": "July 2020 Bangladesh monsoon flooding",
+   "lag_days": -1
+  },
+  {
+   "event_date": "2020-01-02",
+   "orbit": [
+    98,
+    "ascending"
+   ],
+   "n_dry_scenes": 29,
+   "threshold_db": 4.0,
+   "excess_fall_pp": 0.065,
+   "null_mean_pp": 0.092,
+   "null_sd_pp": 0.192,
+   "null_max_pp": 0.321,
+   "z": -0.14,
+   "detected": false,
+   "city": "Jakarta, Kp. Melayu",
+   "event": "1 January 2020 Ciliwung flood",
+   "lag_days": 1
+  },
+  {
+   "event_date": "2020-11-16",
+   "orbit": [
+    32,
+    "descending"
+   ],
+   "n_dry_scenes": 31,
+   "threshold_db": 4.0,
+   "excess_fall_pp": -0.615,
+   "null_mean_pp": -0.013,
+   "null_sd_pp": 0.26,
+   "null_max_pp": 0.378,
+   "z": -2.32,
+   "detected": false,
+   "city": "Manila, Marikina",
+   "event": "Typhoon Vamco, Marikina river record stage",
+   "lag_days": 4
+  },
+  {
+   "event_date": "2020-08-28",
+   "orbit": [
+    78,
+    "descending"
+   ],
+   "n_dry_scenes": 28,
+   "threshold_db": 4.0,
+   "excess_fall_pp": -0.197,
+   "null_mean_pp": 0.22,
+   "null_sd_pp": 0.317,
+   "null_max_pp": 0.764,
+   "z": -1.31,
+   "detected": false,
+   "city": "Karachi, Lyari",
+   "event": "August 2020 Karachi record monthly rainfall",
+   "lag_days": 1
+  }
+ ]
+}

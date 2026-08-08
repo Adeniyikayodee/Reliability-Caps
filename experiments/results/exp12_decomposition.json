@@ -1,0 +1,48 @@
+{
+ "n_cities": 8,
+ "n_priors": 3,
+ "n_realisations": 8,
+ "grand_mean_nats": 0.5414,
+ "city_effects": {
+  "Lagos, Ajegunle": 0.1753,
+  "Accra, Odaw": 0.1211,
+  "Nairobi, Mathare": 0.0362,
+  "Kampala, Bwaise": -0.068,
+  "Dhaka, Korail": -0.061,
+  "Jakarta, Kp. Melayu": 0.0138,
+  "Manila, Marikina": -0.096,
+  "Karachi, Lyari": -0.1213
+ },
+ "prior_effects": {
+  "learned": -0.0662,
+  "terrain": 0.0464,
+  "tessellation": 0.0198
+ },
+ "spans_nats": {
+  "city_means": 0.2966,
+  "prior_means": 0.1126,
+  "whole_table": 0.8111,
+  "mean_within_city_across_prior_range": 0.3208,
+  "mean_within_prior_across_city_range": 0.5545
+ },
+ "variance_components_nats2": {
+  "city": 0.0099,
+  "prior": 0.00231,
+  "interaction": 0.02135,
+  "realisation_noise_per_cell": 0.00608,
+  "city_noise_corrected": 0.00787,
+  "prior_noise_corrected": 0.00155,
+  "interaction_noise_corrected": 0.01527
+ },
+ "ratio_city_to_prior_main_effect_sd": 2.07,
+ "paired_wilcoxon_p": {
+  "learned vs terrain": 0.3828,
+  "learned vs tessellation": 0.5469,
+  "terrain vs tessellation": 0.7422
+ },
+ "interaction_bootstrap": {
+  "observed_var": 0.02135,
+  "null_median_var": 0.00329,
+  "p": 0.0
+ }
+}

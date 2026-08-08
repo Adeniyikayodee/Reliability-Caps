@@ -1,0 +1,160 @@
+{
+  "config": {
+    "ks": [
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      16,
+      20
+    ],
+    "select_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "eval_seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "deployed_k": 6,
+    "n_reports": 3000,
+    "report_noise": 0.2,
+    "tau_min": 30.0
+  },
+  "families": {
+    "learned": {
+      "curve": {
+        "4": {
+          "select": 19.768,
+          "select_usable": 8,
+          "eval": 19.189,
+          "eval_usable": 10
+        },
+        "5": {
+          "select": 25.602555555555558,
+          "select_usable": 9,
+          "eval": 19.571,
+          "eval_usable": 10
+        },
+        "6": {
+          "select": 18.237699999999997,
+          "select_usable": 10,
+          "eval": 17.351555555555553,
+          "eval_usable": 9
+        },
+        "8": {
+          "select": 18.5005,
+          "select_usable": 10,
+          "eval": 13.961111111111112,
+          "eval_usable": 9
+        },
+        "10": {
+          "select": 13.005,
+          "select_usable": 10,
+          "eval": 14.4449,
+          "eval_usable": 10
+        },
+        "12": {
+          "select": 12.8195,
+          "select_usable": 10,
+          "eval": 13.031899999999998,
+          "eval_usable": 10
+        },
+        "16": {
+          "select": 13.6084,
+          "select_usable": 10,
+          "eval": 14.007299999999997,
+          "eval_usable": 10
+        },
+        "20": {
+          "select": 16.050800000000002,
+          "select_usable": 10,
+          "eval": 15.480375,
+          "eval_usable": 8
+        }
+      },
+      "k_selected_on_first_half": 12,
+      "effort_at_selected_k_on_heldout": 13.032,
+      "effort_at_selected_k_in_sample": 12.819,
+      "effort_at_deployed_k_on_heldout": 17.352,
+      "best_possible_k_on_heldout": 12,
+      "effort_at_best_possible_on_heldout": 13.032
+    },
+    "terrain": {
+      "curve": {
+        "4": {
+          "select": 15.7313,
+          "select_usable": 10,
+          "eval": 15.809699999999998,
+          "eval_usable": 10
+        },
+        "5": {
+          "select": 15.777199999999999,
+          "select_usable": 10,
+          "eval": 15.0458,
+          "eval_usable": 10
+        },
+        "6": {
+          "select": 16.1499,
+          "select_usable": 10,
+          "eval": 15.698000000000002,
+          "eval_usable": 10
+        },
+        "8": {
+          "select": 16.700300000000002,
+          "select_usable": 10,
+          "eval": 17.255300000000002,
+          "eval_usable": 10
+        },
+        "10": {
+          "select": 16.334,
+          "select_usable": 8,
+          "eval": 15.0585,
+          "eval_usable": 8
+        },
+        "12": {
+          "select": 15.311,
+          "select_usable": 6,
+          "eval": 16.0615,
+          "eval_usable": 8
+        },
+        "16": {
+          "select": 16.84488888888889,
+          "select_usable": 9,
+          "eval": 19.343700000000002,
+          "eval_usable": 10
+        },
+        "20": {
+          "select": 18.01325,
+          "select_usable": 8,
+          "eval": 19.004555555555555,
+          "eval_usable": 9
+        }
+      },
+      "k_selected_on_first_half": 12,
+      "effort_at_selected_k_on_heldout": 16.061,
+      "effort_at_selected_k_in_sample": 15.311,
+      "effort_at_deployed_k_on_heldout": 15.698,
+      "best_possible_k_on_heldout": 5,
+      "effort_at_best_possible_on_heldout": 15.046
+    }
+  }
+}

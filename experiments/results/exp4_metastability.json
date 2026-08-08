@@ -1,0 +1,679 @@
+{
+  "config": {
+    "tau_min": 30.0,
+    "tpr": 0.918,
+    "fpr": 0.3889,
+    "n_paths": 6000,
+    "lead_times_min": [
+      30.0,
+      60.0,
+      120.0
+    ],
+    "confidence": 0.9,
+    "ratios": [
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "areas_km2": {
+      "0": 22.83,
+      "1": 12.93,
+      "2": 23.28,
+      "3": 14.88,
+      "4": 36.17,
+      "5": 8.44
+    }
+  },
+  "parts": [
+    {
+      "part": 0,
+      "area_km2": 22.83,
+      "threshold_nats": 1.4984,
+      "single_report_nats": 0.8066,
+      "critical_interval_min": 23.18,
+      "mean_field_interval_min": 16.15,
+      "conservatism_of_mean_field": 1.436,
+      "periodic_peak_inside": 1.5188,
+      "periodic_peak_outside": 1.4791,
+      "deterministic_boundary_exact": true,
+      "interval_for_30min_lead": 5.74,
+      "interval_for_60min_lead": 10.56,
+      "interval_for_120min_lead": 18.01
+    },
+    {
+      "part": 1,
+      "area_km2": 12.93,
+      "threshold_nats": 0.9299,
+      "single_report_nats": 0.8066,
+      "critical_interval_min": 60.6,
+      "mean_field_interval_min": 26.02,
+      "conservatism_of_mean_field": 2.329,
+      "periodic_peak_inside": 0.9358,
+      "periodic_peak_outside": 0.9243,
+      "deterministic_boundary_exact": true,
+      "interval_for_30min_lead": 7.42,
+      "interval_for_60min_lead": 14.84,
+      "interval_for_120min_lead": 27.3
+    },
+    {
+      "part": 2,
+      "area_km2": 23.28,
+      "threshold_nats": 1.518,
+      "single_report_nats": 0.8066,
+      "critical_interval_min": 22.74,
+      "mean_field_interval_min": 15.94,
+      "conservatism_of_mean_field": 1.426,
+      "periodic_peak_inside": 1.5385,
+      "periodic_peak_outside": 1.4979,
+      "deterministic_boundary_exact": true,
+      "interval_for_30min_lead": 6.1,
+      "interval_for_60min_lead": 10.73,
+      "interval_for_120min_lead": 17.04
+    },
+    {
+      "part": 3,
+      "area_km2": 14.88,
+      "threshold_nats": 1.0704,
+      "single_report_nats": 0.8066,
+      "critical_interval_min": 42.01,
+      "mean_field_interval_min": 22.61,
+      "conservatism_of_mean_field": 1.859,
+      "periodic_peak_inside": 1.0805,
+      "periodic_peak_outside": 1.0608,
+      "deterministic_boundary_exact": true,
+      "interval_for_30min_lead": 7.64,
+      "interval_for_60min_lead": 14.18,
+      "interval_for_120min_lead": 24.52
+    },
+    {
+      "part": 4,
+      "area_km2": 36.17,
+      "threshold_nats": 1.9586,
+      "single_report_nats": 0.8066,
+      "critical_interval_min": 15.92,
+      "mean_field_interval_min": 12.35,
+      "conservatism_of_mean_field": 1.289,
+      "periodic_peak_inside": 1.989,
+      "periodic_peak_outside": 1.9296,
+      "deterministic_boundary_exact": true,
+      "interval_for_30min_lead": 4.98,
+      "interval_for_60min_lead": 8.17,
+      "interval_for_120min_lead": 13.15
+    },
+    {
+      "part": 5,
+      "area_km2": 8.44,
+      "threshold_nats": 0.8578,
+      "single_report_nats": 0.8066,
+      "critical_interval_min": 84.51,
+      "mean_field_interval_min": 28.21,
+      "conservatism_of_mean_field": 2.996,
+      "periodic_peak_inside": 0.861,
+      "periodic_peak_outside": 0.8549,
+      "deterministic_boundary_exact": true,
+      "interval_for_30min_lead": 7.58,
+      "interval_for_60min_lead": 15.16,
+      "interval_for_120min_lead": 29.59
+    }
+  ],
+  "poisson": {
+    "0": [
+      {
+        "interval_over_critical": 0.4,
+        "interval_min": 9.27,
+        "median_first_passage_min": 20.5,
+        "occupancy_above_threshold": 0.69156,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.6772,
+        "p_cross_within_60min": 0.9433,
+        "p_cross_within_120min": 0.998
+      },
+      {
+        "interval_over_critical": 0.6,
+        "interval_min": 13.91,
+        "median_first_passage_min": 32.8,
+        "occupancy_above_threshold": 0.41638,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.4417,
+        "p_cross_within_60min": 0.7817,
+        "p_cross_within_120min": 0.9627
+      },
+      {
+        "interval_over_critical": 0.8,
+        "interval_min": 18.54,
+        "median_first_passage_min": 41.7,
+        "occupancy_above_threshold": 0.25026,
+        "chernoff_stationary": 0.967103,
+        "p_cross_within_30min": 0.283,
+        "p_cross_within_60min": 0.5997,
+        "p_cross_within_120min": 0.8838
+      },
+      {
+        "interval_over_critical": 1.0,
+        "interval_min": 23.18,
+        "median_first_passage_min": 49.6,
+        "occupancy_above_threshold": 0.15382,
+        "chernoff_stationary": 0.812386,
+        "p_cross_within_30min": 0.203,
+        "p_cross_within_60min": 0.4657,
+        "p_cross_within_120min": 0.7713
+      },
+      {
+        "interval_over_critical": 1.25,
+        "interval_min": 28.98,
+        "median_first_passage_min": 55.3,
+        "occupancy_above_threshold": 0.09133,
+        "chernoff_stationary": 0.60885,
+        "p_cross_within_30min": 0.1377,
+        "p_cross_within_60min": 0.3357,
+        "p_cross_within_120min": 0.624
+      },
+      {
+        "interval_over_critical": 1.5,
+        "interval_min": 34.77,
+        "median_first_passage_min": 61.4,
+        "occupancy_above_threshold": 0.0584,
+        "chernoff_stationary": 0.451649,
+        "p_cross_within_30min": 0.0993,
+        "p_cross_within_60min": 0.245,
+        "p_cross_within_120min": 0.5028
+      },
+      {
+        "interval_over_critical": 2.0,
+        "interval_min": 46.36,
+        "median_first_passage_min": 64.2,
+        "occupancy_above_threshold": 0.02771,
+        "chernoff_stationary": 0.259623,
+        "p_cross_within_30min": 0.0595,
+        "p_cross_within_60min": 0.1492,
+        "p_cross_within_120min": 0.3285
+      },
+      {
+        "interval_over_critical": 3.0,
+        "interval_min": 69.54,
+        "median_first_passage_min": 66.2,
+        "occupancy_above_threshold": 0.00935,
+        "chernoff_stationary": 0.106558,
+        "p_cross_within_30min": 0.0243,
+        "p_cross_within_60min": 0.0643,
+        "p_cross_within_120min": 0.1497
+      },
+      {
+        "interval_over_critical": 4.0,
+        "interval_min": 92.72,
+        "median_first_passage_min": 63.2,
+        "occupancy_above_threshold": 0.00431,
+        "chernoff_stationary": 0.054174,
+        "p_cross_within_30min": 0.0133,
+        "p_cross_within_60min": 0.0363,
+        "p_cross_within_120min": 0.0817
+      }
+    ],
+    "1": [
+      {
+        "interval_over_critical": 0.4,
+        "interval_min": 24.24,
+        "median_first_passage_min": 38.1,
+        "occupancy_above_threshold": 0.38052,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.3462,
+        "p_cross_within_60min": 0.7058,
+        "p_cross_within_120min": 0.9332
+      },
+      {
+        "interval_over_critical": 0.6,
+        "interval_min": 36.36,
+        "median_first_passage_min": 49.3,
+        "occupancy_above_threshold": 0.20261,
+        "chernoff_stationary": 0.894298,
+        "p_cross_within_30min": 0.2003,
+        "p_cross_within_60min": 0.4905,
+        "p_cross_within_120min": 0.7893
+      },
+      {
+        "interval_over_critical": 0.8,
+        "interval_min": 48.48,
+        "median_first_passage_min": 55.5,
+        "occupancy_above_threshold": 0.12169,
+        "chernoff_stationary": 0.709161,
+        "p_cross_within_30min": 0.134,
+        "p_cross_within_60min": 0.3443,
+        "p_cross_within_120min": 0.6363
+      },
+      {
+        "interval_over_critical": 1.0,
+        "interval_min": 60.6,
+        "median_first_passage_min": 59.3,
+        "occupancy_above_threshold": 0.08096,
+        "chernoff_stationary": 0.559011,
+        "p_cross_within_30min": 0.0922,
+        "p_cross_within_60min": 0.2583,
+        "p_cross_within_120min": 0.5057
+      },
+      {
+        "interval_over_critical": 1.25,
+        "interval_min": 75.75,
+        "median_first_passage_min": 62.1,
+        "occupancy_above_threshold": 0.05204,
+        "chernoff_stationary": 0.425385,
+        "p_cross_within_30min": 0.0615,
+        "p_cross_within_60min": 0.1907,
+        "p_cross_within_120min": 0.3967
+      },
+      {
+        "interval_over_critical": 1.5,
+        "interval_min": 90.9,
+        "median_first_passage_min": 64.5,
+        "occupancy_above_threshold": 0.03683,
+        "chernoff_stationary": 0.33392,
+        "p_cross_within_30min": 0.0438,
+        "p_cross_within_60min": 0.1437,
+        "p_cross_within_120min": 0.312
+      },
+      {
+        "interval_over_critical": 2.0,
+        "interval_min": 121.2,
+        "median_first_passage_min": 66.9,
+        "occupancy_above_threshold": 0.02183,
+        "chernoff_stationary": 0.222588,
+        "p_cross_within_30min": 0.0257,
+        "p_cross_within_60min": 0.0917,
+        "p_cross_within_120min": 0.2113
+      },
+      {
+        "interval_over_critical": 3.0,
+        "interval_min": 181.8,
+        "median_first_passage_min": 68.0,
+        "occupancy_above_threshold": 0.00974,
+        "chernoff_stationary": 0.122103,
+        "p_cross_within_30min": 0.011,
+        "p_cross_within_60min": 0.0438,
+        "p_cross_within_120min": 0.1148
+      },
+      {
+        "interval_over_critical": 4.0,
+        "interval_min": 242.4,
+        "median_first_passage_min": 69.2,
+        "occupancy_above_threshold": 0.00544,
+        "chernoff_stationary": 0.078985,
+        "p_cross_within_30min": 0.0072,
+        "p_cross_within_60min": 0.0257,
+        "p_cross_within_120min": 0.0695
+      }
+    ],
+    "2": [
+      {
+        "interval_over_critical": 0.4,
+        "interval_min": 9.1,
+        "median_first_passage_min": 21.4,
+        "occupancy_above_threshold": 0.69234,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.689,
+        "p_cross_within_60min": 0.9443,
+        "p_cross_within_120min": 0.9988
+      },
+      {
+        "interval_over_critical": 0.6,
+        "interval_min": 13.64,
+        "median_first_passage_min": 33.1,
+        "occupancy_above_threshold": 0.42663,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.4388,
+        "p_cross_within_60min": 0.7765,
+        "p_cross_within_120min": 0.9663
+      },
+      {
+        "interval_over_critical": 0.8,
+        "interval_min": 18.19,
+        "median_first_passage_min": 42.4,
+        "occupancy_above_threshold": 0.25525,
+        "chernoff_stationary": 0.969467,
+        "p_cross_within_30min": 0.294,
+        "p_cross_within_60min": 0.6038,
+        "p_cross_within_120min": 0.8853
+      },
+      {
+        "interval_over_critical": 1.0,
+        "interval_min": 22.74,
+        "median_first_passage_min": 50.5,
+        "occupancy_above_threshold": 0.15848,
+        "chernoff_stationary": 0.815556,
+        "p_cross_within_30min": 0.204,
+        "p_cross_within_60min": 0.455,
+        "p_cross_within_120min": 0.7665
+      },
+      {
+        "interval_over_critical": 1.25,
+        "interval_min": 28.42,
+        "median_first_passage_min": 55.7,
+        "occupancy_above_threshold": 0.09454,
+        "chernoff_stationary": 0.610576,
+        "p_cross_within_30min": 0.1388,
+        "p_cross_within_60min": 0.3293,
+        "p_cross_within_120min": 0.6172
+      },
+      {
+        "interval_over_critical": 1.5,
+        "interval_min": 34.11,
+        "median_first_passage_min": 59.4,
+        "occupancy_above_threshold": 0.05967,
+        "chernoff_stationary": 0.451927,
+        "p_cross_within_30min": 0.103,
+        "p_cross_within_60min": 0.2508,
+        "p_cross_within_120min": 0.4972
+      },
+      {
+        "interval_over_critical": 2.0,
+        "interval_min": 45.48,
+        "median_first_passage_min": 64.5,
+        "occupancy_above_threshold": 0.02842,
+        "chernoff_stationary": 0.258385,
+        "p_cross_within_30min": 0.0617,
+        "p_cross_within_60min": 0.1478,
+        "p_cross_within_120min": 0.3187
+      },
+      {
+        "interval_over_critical": 3.0,
+        "interval_min": 68.22,
+        "median_first_passage_min": 67.9,
+        "occupancy_above_threshold": 0.00948,
+        "chernoff_stationary": 0.104981,
+        "p_cross_within_30min": 0.0267,
+        "p_cross_within_60min": 0.0687,
+        "p_cross_within_120min": 0.156
+      },
+      {
+        "interval_over_critical": 4.0,
+        "interval_min": 90.96,
+        "median_first_passage_min": 70.8,
+        "occupancy_above_threshold": 0.00398,
+        "chernoff_stationary": 0.052933,
+        "p_cross_within_30min": 0.016,
+        "p_cross_within_60min": 0.0408,
+        "p_cross_within_120min": 0.0882
+      }
+    ],
+    "3": [
+      {
+        "interval_over_critical": 0.4,
+        "interval_min": 16.8,
+        "median_first_passage_min": 27.6,
+        "occupancy_above_threshold": 0.51284,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.5218,
+        "p_cross_within_60min": 0.836,
+        "p_cross_within_120min": 0.9788
+      },
+      {
+        "interval_over_critical": 0.6,
+        "interval_min": 25.21,
+        "median_first_passage_min": 38.5,
+        "occupancy_above_threshold": 0.28947,
+        "chernoff_stationary": 0.985108,
+        "p_cross_within_30min": 0.3257,
+        "p_cross_within_60min": 0.6367,
+        "p_cross_within_120min": 0.8857
+      },
+      {
+        "interval_over_critical": 0.8,
+        "interval_min": 33.61,
+        "median_first_passage_min": 46.7,
+        "occupancy_above_threshold": 0.17528,
+        "chernoff_stationary": 0.838547,
+        "p_cross_within_30min": 0.214,
+        "p_cross_within_60min": 0.4698,
+        "p_cross_within_120min": 0.7645
+      },
+      {
+        "interval_over_critical": 1.0,
+        "interval_min": 42.01,
+        "median_first_passage_min": 51.4,
+        "occupancy_above_threshold": 0.11581,
+        "chernoff_stationary": 0.675173,
+        "p_cross_within_30min": 0.158,
+        "p_cross_within_60min": 0.3707,
+        "p_cross_within_120min": 0.6485
+      },
+      {
+        "interval_over_critical": 1.25,
+        "interval_min": 52.51,
+        "median_first_passage_min": 55.9,
+        "occupancy_above_threshold": 0.07333,
+        "chernoff_stationary": 0.513716,
+        "p_cross_within_30min": 0.1092,
+        "p_cross_within_60min": 0.2668,
+        "p_cross_within_120min": 0.5145
+      },
+      {
+        "interval_over_critical": 1.5,
+        "interval_min": 63.02,
+        "median_first_passage_min": 57.8,
+        "occupancy_above_threshold": 0.05149,
+        "chernoff_stationary": 0.398422,
+        "p_cross_within_30min": 0.0798,
+        "p_cross_within_60min": 0.2077,
+        "p_cross_within_120min": 0.4095
+      },
+      {
+        "interval_over_critical": 2.0,
+        "interval_min": 84.02,
+        "median_first_passage_min": 60.9,
+        "occupancy_above_threshold": 0.02801,
+        "chernoff_stationary": 0.256459,
+        "p_cross_within_30min": 0.0492,
+        "p_cross_within_60min": 0.1362,
+        "p_cross_within_120min": 0.283
+      },
+      {
+        "interval_over_critical": 3.0,
+        "interval_min": 126.03,
+        "median_first_passage_min": 62.8,
+        "occupancy_above_threshold": 0.01296,
+        "chernoff_stationary": 0.131,
+        "p_cross_within_30min": 0.0247,
+        "p_cross_within_60min": 0.0667,
+        "p_cross_within_120min": 0.1522
+      },
+      {
+        "interval_over_critical": 4.0,
+        "interval_min": 168.04,
+        "median_first_passage_min": 65.6,
+        "occupancy_above_threshold": 0.00747,
+        "chernoff_stationary": 0.079799,
+        "p_cross_within_30min": 0.0152,
+        "p_cross_within_60min": 0.0408,
+        "p_cross_within_120min": 0.094
+      }
+    ],
+    "4": [
+      {
+        "interval_over_critical": 0.4,
+        "interval_min": 6.37,
+        "median_first_passage_min": 18.0,
+        "occupancy_above_threshold": 0.76768,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.7635,
+        "p_cross_within_60min": 0.9755,
+        "p_cross_within_120min": 1.0
+      },
+      {
+        "interval_over_critical": 0.6,
+        "interval_min": 9.55,
+        "median_first_passage_min": 29.8,
+        "occupancy_above_threshold": 0.49965,
+        "chernoff_stationary": 1.0,
+        "p_cross_within_30min": 0.5038,
+        "p_cross_within_60min": 0.8433,
+        "p_cross_within_120min": 0.9862
+      },
+      {
+        "interval_over_critical": 0.8,
+        "interval_min": 12.74,
+        "median_first_passage_min": 41.2,
+        "occupancy_above_threshold": 0.29166,
+        "chernoff_stationary": 0.997804,
+        "p_cross_within_30min": 0.3157,
+        "p_cross_within_60min": 0.6518,
+        "p_cross_within_120min": 0.9235
+      },
+      {
+        "interval_over_critical": 1.0,
+        "interval_min": 15.92,
+        "median_first_passage_min": 50.5,
+        "occupancy_above_threshold": 0.17123,
+        "chernoff_stationary": 0.869483,
+        "p_cross_within_30min": 0.2073,
+        "p_cross_within_60min": 0.4902,
+        "p_cross_within_120min": 0.8097
+      },
+      {
+        "interval_over_critical": 1.25,
+        "interval_min": 19.9,
+        "median_first_passage_min": 57.8,
+        "occupancy_above_threshold": 0.09303,
+        "chernoff_stationary": 0.637312,
+        "p_cross_within_30min": 0.1285,
+        "p_cross_within_60min": 0.3362,
+        "p_cross_within_120min": 0.6408
+      },
+      {
+        "interval_over_critical": 1.5,
+        "interval_min": 23.88,
+        "median_first_passage_min": 64.7,
+        "occupancy_above_threshold": 0.05394,
+        "chernoff_stationary": 0.449205,
+        "p_cross_within_30min": 0.0867,
+        "p_cross_within_60min": 0.241,
+        "p_cross_within_120min": 0.497
+      },
+      {
+        "interval_over_critical": 2.0,
+        "interval_min": 31.84,
+        "median_first_passage_min": 66.8,
+        "occupancy_above_threshold": 0.02141,
+        "chernoff_stationary": 0.227977,
+        "p_cross_within_30min": 0.0437,
+        "p_cross_within_60min": 0.1212,
+        "p_cross_within_120min": 0.2865
+      },
+      {
+        "interval_over_critical": 3.0,
+        "interval_min": 47.76,
+        "median_first_passage_min": 69.9,
+        "occupancy_above_threshold": 0.0057,
+        "chernoff_stationary": 0.073881,
+        "p_cross_within_30min": 0.0162,
+        "p_cross_within_60min": 0.0455,
+        "p_cross_within_120min": 0.1112
+      },
+      {
+        "interval_over_critical": 4.0,
+        "interval_min": 63.68,
+        "median_first_passage_min": 72.4,
+        "occupancy_above_threshold": 0.00199,
+        "chernoff_stationary": 0.030943,
+        "p_cross_within_30min": 0.0068,
+        "p_cross_within_60min": 0.0195,
+        "p_cross_within_120min": 0.0537
+      }
+    ],
+    "5": [
+      {
+        "interval_over_critical": 0.4,
+        "interval_min": 33.8,
+        "median_first_passage_min": 48.5,
+        "occupancy_above_threshold": 0.26146,
+        "chernoff_stationary": 0.968332,
+        "p_cross_within_30min": 0.2158,
+        "p_cross_within_60min": 0.5163,
+        "p_cross_within_120min": 0.8492
+      },
+      {
+        "interval_over_critical": 0.6,
+        "interval_min": 50.71,
+        "median_first_passage_min": 59.8,
+        "occupancy_above_threshold": 0.13299,
+        "chernoff_stationary": 0.751538,
+        "p_cross_within_30min": 0.1123,
+        "p_cross_within_60min": 0.3187,
+        "p_cross_within_120min": 0.6468
+      },
+      {
+        "interval_over_critical": 0.8,
+        "interval_min": 67.61,
+        "median_first_passage_min": 65.8,
+        "occupancy_above_threshold": 0.07911,
+        "chernoff_stationary": 0.567037,
+        "p_cross_within_30min": 0.0692,
+        "p_cross_within_60min": 0.2158,
+        "p_cross_within_120min": 0.4915
+      },
+      {
+        "interval_over_critical": 1.0,
+        "interval_min": 84.51,
+        "median_first_passage_min": 69.9,
+        "occupancy_above_threshold": 0.05191,
+        "chernoff_stationary": 0.439216,
+        "p_cross_within_30min": 0.0445,
+        "p_cross_within_60min": 0.1508,
+        "p_cross_within_120min": 0.379
+      },
+      {
+        "interval_over_critical": 1.25,
+        "interval_min": 105.64,
+        "median_first_passage_min": 71.2,
+        "occupancy_above_threshold": 0.03446,
+        "chernoff_stationary": 0.332816,
+        "p_cross_within_30min": 0.0297,
+        "p_cross_within_60min": 0.106,
+        "p_cross_within_120min": 0.2848
+      },
+      {
+        "interval_over_critical": 1.5,
+        "interval_min": 126.77,
+        "median_first_passage_min": 73.3,
+        "occupancy_above_threshold": 0.02447,
+        "chernoff_stationary": 0.262303,
+        "p_cross_within_30min": 0.0217,
+        "p_cross_within_60min": 0.0757,
+        "p_cross_within_120min": 0.2223
+      },
+      {
+        "interval_over_critical": 2.0,
+        "interval_min": 169.02,
+        "median_first_passage_min": 73.5,
+        "occupancy_above_threshold": 0.01363,
+        "chernoff_stationary": 0.177713,
+        "p_cross_within_30min": 0.013,
+        "p_cross_within_60min": 0.0445,
+        "p_cross_within_120min": 0.138
+      },
+      {
+        "interval_over_critical": 3.0,
+        "interval_min": 253.53,
+        "median_first_passage_min": 77.2,
+        "occupancy_above_threshold": 0.00632,
+        "chernoff_stationary": 0.101119,
+        "p_cross_within_30min": 0.006,
+        "p_cross_within_60min": 0.0217,
+        "p_cross_within_120min": 0.0693
+      },
+      {
+        "interval_over_critical": 4.0,
+        "interval_min": 338.04,
+        "median_first_passage_min": 79.4,
+        "occupancy_above_threshold": 0.00378,
+        "chernoff_stationary": 0.067528,
+        "p_cross_within_30min": 0.0032,
+        "p_cross_within_60min": 0.013,
+        "p_cross_within_120min": 0.042
+      }
+    ]
+  }
+}

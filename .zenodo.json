@@ -1,0 +1,24 @@
+{
+  "title": "Reliability Caps",
+  "description": "<p>Research code for measuring what a single human observation is worth to a spatial decision, given a learned partition of the landscape.</p><p>A settlement is partitioned into parts by clustering a satellite representation. A resident's report is about the cell they stand in, the decision is about the whole part, and composing those two stages bounds the evidence one report can carry at log(TPR/FPR) nats, where TPR and FPR are the out-of-sample reliability of the partition itself. Evidence then accumulates towards an escalation boundary and decays at the hazard's own autocorrelation time, which turns that bound into a condition on whether a part can be decided at all.</p><p>This deposit holds the evidence core, thirteen experiments and the results of the runs behind them: the TESSERA and Copernicus GLO-30 processing, the eight-settlement comparison, a Sentinel-1 detectability test, a hand-built Sentinel-2 composite baseline, and the granularity and alpha-margin sweeps. The results are included as JSON alongside the configuration that produced each one, so any number can be checked without repeating an hour of computation.</p><p>No third-party data is redistributed. Every script fetches what it needs from the public archives and caches locally.</p>",
+  "upload_type": "software",
+  "license": "cc-by-sa-4.0",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Adeniyi, Kayode",
+      "affiliation": "Quantile Labs"
+    }
+  ],
+  "keywords": [
+    "geospatial representation learning",
+    "sequential analysis",
+    "participatory sensing",
+    "flood early warning",
+    "information bounds",
+    "TESSERA",
+    "Sentinel-1",
+    "Sentinel-2",
+    "Copernicus DEM"
+  ]
+}

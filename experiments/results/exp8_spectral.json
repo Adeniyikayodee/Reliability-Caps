@@ -1,0 +1,171 @@
+{
+  "config": {
+    "year": 2024,
+    "max_cloud": 40,
+    "n_scenes": 12,
+    "bands": [
+      "blue",
+      "green",
+      "red",
+      "nir",
+      "swir16",
+      "swir22"
+    ],
+    "channels": 23,
+    "ks": [
+      6,
+      12
+    ],
+    "hazard_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "n_reports": 2000,
+    "report_noise": 0.2,
+    "tau_min": 30.0
+  },
+  "results": {
+    "surface classes from the embedding": {
+      "embedding/k6": {
+        "kappa_excess_nats": [
+          0.8009,
+          0.3335
+        ],
+        "city_reports_per_hour": 17.046
+      },
+      "embedding/k12": {
+        "kappa_excess_nats": [
+          0.7576,
+          0.3247
+        ],
+        "city_reports_per_hour": 11.146
+      },
+      "spectral/k6": {
+        "kappa_excess_nats": [
+          0.7278,
+          0.3356
+        ],
+        "city_reports_per_hour": 16.905
+      },
+      "spectral/k12": {
+        "kappa_excess_nats": [
+          0.5776,
+          0.2557
+        ],
+        "city_reports_per_hour": 18.105
+      },
+      "terrain/k6": {
+        "kappa_excess_nats": [
+          0.7656,
+          0.263
+        ],
+        "city_reports_per_hour": 15.049
+      },
+      "terrain/k12": {
+        "kappa_excess_nats": [
+          0.5746,
+          0.191
+        ],
+        "city_reports_per_hour": 16.972
+      }
+    },
+    "surface classes from the composite": {
+      "embedding/k6": {
+        "kappa_excess_nats": [
+          0.6923,
+          0.4457
+        ],
+        "city_reports_per_hour": 18.596
+      },
+      "embedding/k12": {
+        "kappa_excess_nats": [
+          0.6254,
+          0.3561
+        ],
+        "city_reports_per_hour": 13.812
+      },
+      "spectral/k6": {
+        "kappa_excess_nats": [
+          0.6499,
+          0.3557
+        ],
+        "city_reports_per_hour": 18.902
+      },
+      "spectral/k12": {
+        "kappa_excess_nats": [
+          0.505,
+          0.3166
+        ],
+        "city_reports_per_hour": 16.3
+      },
+      "terrain/k6": {
+        "kappa_excess_nats": [
+          0.8109,
+          0.3067
+        ],
+        "city_reports_per_hour": 14.226
+      },
+      "terrain/k12": {
+        "kappa_excess_nats": [
+          0.6303,
+          0.2466
+        ],
+        "city_reports_per_hour": 16.894
+      }
+    }
+  },
+  "paired": {
+    "surface classes from the embedding": {
+      "embedding/k6 - spectral/k6": {
+        "mean_nats": 0.0731,
+        "effect_over_noise": 0.323,
+        "wilcoxon_p": 0.08255
+      },
+      "embedding/k12 - spectral/k12": {
+        "mean_nats": 0.18,
+        "effect_over_noise": 0.901,
+        "wilcoxon_p": 0.00121
+      },
+      "spectral/k6 - terrain/k6": {
+        "mean_nats": -0.0378,
+        "effect_over_noise": 0.129,
+        "wilcoxon_p": 0.84082
+      }
+    },
+    "surface classes from the composite": {
+      "embedding/k6 - spectral/k6": {
+        "mean_nats": 0.0424,
+        "effect_over_noise": 0.325,
+        "wilcoxon_p": 0.20245
+      },
+      "embedding/k12 - spectral/k12": {
+        "mean_nats": 0.1203,
+        "effect_over_noise": 0.598,
+        "wilcoxon_p": 0.02148
+      },
+      "spectral/k6 - terrain/k6": {
+        "mean_nats": -0.1609,
+        "effect_over_noise": 0.377,
+        "wilcoxon_p": 0.34106
+      }
+    }
+  }
+}

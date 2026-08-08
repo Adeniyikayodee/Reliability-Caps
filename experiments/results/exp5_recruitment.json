@@ -1,0 +1,93 @@
+{
+  "config": {
+    "part": 4,
+    "area_km2": 36.17,
+    "tau_min": 30.0,
+    "lead_min": 60.0,
+    "horizon_min": 180.0,
+    "n_residents": 320,
+    "n_compounds": 40,
+    "compound_spread_m": 45.0,
+    "lambda_unsolicited_per_min": 0.04,
+    "p_reply": 0.6,
+    "reply_delay_min": 3.0,
+    "question_budget": 4,
+    "n_trials": 3000,
+    "threshold_nats": 1.9586
+  },
+  "policies": {
+    "none": {
+      "p_decided_within_lead": 0.0643,
+      "p_decided_within_horizon": 0.224,
+      "median_decision_min": 91.0,
+      "mean_questions": 0.0,
+      "mean_reports": 6.34
+    },
+    "random": {
+      "p_decided_within_lead": 0.239,
+      "p_decided_within_horizon": 0.5353,
+      "median_decision_min": 65.9,
+      "mean_questions": 3.29,
+      "mean_reports": 6.85
+    },
+    "nearest": {
+      "p_decided_within_lead": 0.1013,
+      "p_decided_within_horizon": 0.3233,
+      "median_decision_min": 83.8,
+      "mean_questions": 3.64,
+      "mean_reports": 8.14
+    },
+    "spread": {
+      "p_decided_within_lead": 0.242,
+      "p_decided_within_horizon": 0.5423,
+      "median_decision_min": 65.4,
+      "mean_questions": 3.3,
+      "mean_reports": 6.86
+    },
+    "oracle": {
+      "p_decided_within_lead": 0.267,
+      "p_decided_within_horizon": 0.572,
+      "median_decision_min": 63.9,
+      "mean_questions": 3.23,
+      "mean_reports": 6.66
+    }
+  },
+  "leading_questions": [
+    {
+      "echo_probability": 0.0,
+      "false_escalation_rate": 0.0783,
+      "design_alpha": 0.1382,
+      "inflation": 0.57
+    },
+    {
+      "echo_probability": 0.15,
+      "false_escalation_rate": 0.0947,
+      "design_alpha": 0.1382,
+      "inflation": 0.68
+    },
+    {
+      "echo_probability": 0.3,
+      "false_escalation_rate": 0.1333,
+      "design_alpha": 0.1382,
+      "inflation": 0.96
+    },
+    {
+      "echo_probability": 0.5,
+      "false_escalation_rate": 0.1573,
+      "design_alpha": 0.1382,
+      "inflation": 1.14
+    },
+    {
+      "echo_probability": 0.7,
+      "false_escalation_rate": 0.1943,
+      "design_alpha": 0.1382,
+      "inflation": 1.41
+    },
+    {
+      "echo_probability": 1.0,
+      "false_escalation_rate": 0.2407,
+      "design_alpha": 0.1382,
+      "inflation": 1.74
+    }
+  ]
+}
