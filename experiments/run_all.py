@@ -15,8 +15,11 @@ import sys
 import time
 
 STEPS = ["exp1_priors", "exp2_granularity", "exp3_composition",
-         "exp4_metastability", "exp5_recruitment", "exp6_cities", "exp7_methods", "exp8_spectral", "exp9_stratify",
-         "exp10_heldout_k"]
+         "exp4_metastability", "exp5_recruitment", "exp6_cities",
+         "exp7_methods", "exp8_spectral", "exp9_stratify", "exp10_heldout_k",
+         "exp11_sar_detectability",
+         # These two read the results of exp6 and exp2, so they come after both.
+         "exp12_decomposition", "exp13_alpha_margin"]
 
 
 def main():
