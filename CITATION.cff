@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: Reliability Caps
+message: If you use this software, please cite it.
+type: software
+authors:
+  - given-names: Kayode
+    family-names: Adeniyi
+    affiliation: Quantile Labs
+    email: kayode@quantilelabs.com
+repository-code: https://github.com/Adeniyikayodee/Reliability-Caps
+license: CC-BY-SA-4.0
+keywords:
+  - geospatial representation learning
+  - sequential analysis
+  - participatory sensing
+  - flood early warning
+abstract: >-
+  Research code for measuring what a single human observation is worth to a
+  spatial decision, given a learned partition of the landscape. Implements the
+  information bound relating a partition's out-of-sample reliability to the
+  evidence one report carries about its part, the leaky sequential test that
+  consumes it, and the experiments that measure both against satellite
+  representations and terrain.

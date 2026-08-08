@@ -1,0 +1,23 @@
+# Everything these experiments need, and nothing else.
+
+numpy<2
+scipy>=1.10
+scikit-learn>=1.3
+PyYAML>=6.0
+requests>=2.31
+
+# The embedding tiles. 0.8.0 silently serves v1 when asked for v2, which produced a
+# clean-looking null result that took a byte-level hash to catch. Pin at or above 0.9.0.
+geotessera>=0.9.0
+
+# Reprojection: Copernicus GLO-30, the Sentinel-2 composite and the Sentinel-1 archive
+# all arrive in their own grid and have to land on the embedding tile's.
+rasterio>=1.3
+pyproj>=3.4
+shapely>=2.0
+
+# Figures
+matplotlib>=3.7
+
+# Tests
+pytest>=8.0

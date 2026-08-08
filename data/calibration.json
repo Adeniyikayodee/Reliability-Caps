@@ -1,0 +1,21 @@
+{
+  "tpr": 0.918,
+  "fpr": 0.3889,
+  "kappa_nats": 0.8589,
+  "informedness_j": 0.529,
+  "shuffle_j_mean": -0.001,
+  "shuffle_j_sd": 0.032,
+  "gap_over_shuffle": 0.53,
+  "n_reports": 400,
+  "n_regimes_tested": 6,
+  "counts": {
+    "tp": 235,
+    "fp": 56,
+    "fn": 21,
+    "tn": 88
+  },
+  "ground_truth": "simulated",
+  "report_noise": 0.2,
+  "seed": 0,
+  "note": "Regime geometry is measured from a real TESSERA 2024 tile over Ajegunle. Flood labels are simulated: see _ground_truth. These numbers are a calibration of the method, not a field result."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "area_km2": 22.83,
+    "fraction": 0.193,
+    "threshold_mm": 30.0
+  },
+  {
+    "id": 1,
+    "area_km2": 12.93,
+    "fraction": 0.109,
+    "threshold_mm": 42.0
+  },
+  {
+    "id": 2,
+    "area_km2": 23.28,
+    "fraction": 0.196,
+    "threshold_mm": 55.0
+  },
+  {
+    "id": 3,
+    "area_km2": 14.88,
+    "fraction": 0.126,
+    "threshold_mm": 38.0
+  },
+  {
+    "id": 4,
+    "area_km2": 36.17,
+    "fraction": 0.305,
+    "threshold_mm": 48.0
+  },
+  {
+    "id": 5,
+    "area_km2": 8.44,
+    "fraction": 0.071,
+    "threshold_mm": null
+  }
+]

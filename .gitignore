@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.venv/
+venv/
+
+# Fetched and cached, never committed. About 1.3 GB after a full eight-city run.
+experiments/global_0.1_degree_representation/
+experiments/global_0.1_degree_tiff_all/
+experiments/cache/
+
+figures/
